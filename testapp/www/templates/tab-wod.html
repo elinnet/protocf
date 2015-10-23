@@ -1,0 +1,23 @@
+<ion-view view-title="WOD">
+  <ion-content class="padding" ng-init="training()">
+    <div class = "card">
+      <button>{{workout[0].date}}<button>
+      <h3>{{workout[0].box}}</h3>
+
+      <div class="item item-divider">
+        Strength
+      </div>
+      <div ng-repeat="movement in currentDayStrength">
+        <p>{{movement}}</p>
+      </div>
+
+      <div class="item item-divider">
+        Metcon
+      </div>
+      <div ng-repeat="movement in currentDayMetcon">
+        <p>{{movement}}</p>
+      </div>
+
+    </div>
+  </ion-content>
+</ion-view>
