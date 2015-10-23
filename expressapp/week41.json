@@ -7,22 +7,16 @@
                "strength": {
                    "type": "Strength",
                    "time": "20 mins",
-                   "exercise": [ 
+                   "exercise": [
                        {
-                           "movement": [
-                               {
-                                   "description": "12 mins E2MOM"
-                               },
-                               {
-                                   "type": ["Power Clean","Split Jerks"]
-                               },
-                               {
+                           "movement": {
+
+                                   "description": "12 mins E2MOM",
+                                   "sets": 6,
+                                   "type": ["Power Clean","Split Jerks"],
                                    "reps": [1,2]
-                               },
-                               {
-                                   "sets": [6]
-                               }
-                           ]
+                            }
+
                        }
                    ]
                }

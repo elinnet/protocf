@@ -18,6 +18,9 @@ angular.module('starter.controllers', [])
               console.log("error");
             });
       };
+
+
+      // var strengthHeader = workout[0].box.info.name;
 });
   //
 
