@@ -15,7 +15,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/new', function (req, res){
-  fs.readFile('./strength.json', 'utf8', function(err,data){
+  fs.readFile('./week41.json', 'utf8', function(err,data){
     if (err) throw err;
     var training = JSON.parse(data);
     res.send(data);
