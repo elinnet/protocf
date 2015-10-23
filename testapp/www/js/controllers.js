@@ -1,36 +1,23 @@
 angular.module('starter.controllers', [])
 
 .controller('WodCtrl', function($scope, $http) {
-  // console.log($http);
-  //
-  // $scope.training = function(){
-  //   console.log("working");
-  //   $scope.workout=[];
-  //   $http.get('http://errand-runner.herokuapp.com/tasks').
-  //   success(function(data) {
-  //       $scope.workout.push(data);
-  //     }).
-  //       error(function(data){
-  //         console.log("error");
-  //       });
-  //   };
 
     ionic.Platform.ready(function(){
-    console.log("inside ready function");
+      console.log("inside ready function");
 
-  $scope.training = function(){
-    console.log("working");
-    $scope.workout=[];
-    $http.get('http://localhost:3000/new').
-    success(function(data) {
-        $scope.workout.push(data);
-        console.log(data);
-        console.log($scope.workout.push(data));
-      }).
-        error(function(data){
-          console.log("error");
-        });
-    };
+      $scope.training = function(){
+        console.log("working");
+        $scope.workout=[];
+        $http.get('http://localhost:3000/new').
+        success(function(data) {
+            $scope.workout.push(data);
+            console.log(data);
+            console.log($scope.workout.push(data));
+          }).
+            error(function(data){
+              console.log("error");
+            });
+      };
 });
   //
 

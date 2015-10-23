@@ -7,11 +7,11 @@
                "strength": {
                    "type": "Strength",
                    "time": "20 mins",
-                   "exercise": [
+                   "exercise": [ 
                        {
-                           "movement1": [
+                           "movement": [
                                {
-                                   "description": ["12 mins E2MOM"]
+                                   "description": "12 mins E2MOM"
                                },
                                {
                                    "type": ["Power Clean","Split Jerks"]

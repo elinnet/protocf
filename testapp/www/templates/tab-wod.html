@@ -2,7 +2,19 @@
   <ion-content class="padding" ng-init="training()">
     <div class = "card">
       <h1>{{workout[0].date | date: 'EEE dd MMM'}}</h1>
-      <h1>{{workout[0].box.info.name}}</h1>    <h3>{{workout[0].box}}</h3>
+      <h3>{{workout[0].box.info.name}}</h3>
+
+      <!-- if "strength" object not empty, then print out values -->
+      <h2>{{workout[0].box.info.training.strength.type}} - {{workout[0].box.info.training.strength.time}}</h2>
+      <p>{{workout[0].box.info.training.strength.exercise[0]}}</p>
+      <p>{{workout[0].box.info.training.strength.exercise[0].movement[0].description}}</p>
+      <p>{{workout[0].box.info.training.strength.exercise[0].movement[3].sets[0]}} rounds</p>
+
+
+
+
+
+
 
       <div class="item item-divider">
         Strength
