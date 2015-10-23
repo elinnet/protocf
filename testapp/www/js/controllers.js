@@ -24,6 +24,8 @@ angular.module('starter.controllers', [])
     $http.get('http://localhost:3000/new').
     success(function(data) {
         $scope.workout.push(data);
+        console.log(data);
+        console.log($scope.workout.push(data));
       }).
         error(function(data){
           console.log("error");
