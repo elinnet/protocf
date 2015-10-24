@@ -7,6 +7,18 @@ h3 {
   text-align: center;
 }
 
-.PBmovement {
+.pbmovement {
   color: red;
+}
+
+.specificmovt{
+  text-indent: 20px;
+}
+
+.mvtdescription{
+  font-weight: bold;
+}
+
+.rounds{
+  font-weight: bold;
 }
