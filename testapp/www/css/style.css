@@ -12,11 +12,20 @@ h3 {
 }
 
 .specificmovt{
-  text-indent: 20px;
+  /*text-indent: 30px;*/
+  padding-left: 32px;
+
 }
 
 .mvtdescription{
   font-weight: bold;
+}
+
+.button_text{
+  font-weight: bold:
+}
+.textpadding{
+  padding-left: 16px;
 }
 
 .rounds{

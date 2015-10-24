@@ -12,14 +12,20 @@ angular.module('starter.controllers', [])
         success(function(data) {
             $scope.workout.push(data);
             console.log(data);
-            console.log(data.date);
-            console.log($scope.workout.push(data));
           }).
             error(function(data){
               console.log("error");
             });
       };
+
     });
+
+    $scope.format = function(string){
+      console.log(string);
+      // var newString = string.replace(/\./g,"\n");
+      // return newString;
+    };
+
 })
 
 // .controller('ChatsCtrl', function($scope, Chats) {

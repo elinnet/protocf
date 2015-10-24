@@ -38,7 +38,14 @@
               }
             }
           ]
-        }
+        },
+      "metcon":{
+        "type": "Metcon",
+        "time": "20",
+        "rounds": "4",
+        "freetext": "3 min AMRAP of: \n2 Power Clean and Jerk \n4 Over the Bar Burpees \n Rest 2 mins between rounds"
+
+      }
       }
     }
   }
