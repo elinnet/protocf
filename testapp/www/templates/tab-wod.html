@@ -6,17 +6,21 @@
 
       <!-- if "strength" object not empty, then print out values -->
       <h2>{{workout[0].box.info.training.strength.type}} - {{workout[0].box.info.training.strength.time}}</h2>
-      <p>{{workout[0].box.info.training.strength.exercise[0]}}</p>
+        <!-- this is the complete string -->
+        <p>{{workout[0].box.info.training.strength.exercise[0]}}</p>
+        <!-- description -->
+        <p>{{workout[0].box.info.training.strength.exercise[0].movement.description}}</p>
+        <!-- rounds  -->
+        <p>{{workout[0].box.info.training.strength.exercise[0].movement.sets}} rounds</p>
 
-      <p>{{workout[0].box.info.training.strength.exercise[0].movement.description}}</p>
+        <!-- movement & reps -->
+          <p><span class="PBmovement">{{workout[0].box.info.training.strength.exercise[0].movement.type[0]}}</span> -
+           {{workout[0].box.info.training.strength.exercise[0].movement.reps[0]}} reps</p>
 
-      <p>{{workout[0].box.info.training.strength.exercise[0].movement.sets}} rounds</p>
+           <p><span class="PBmovement">{{workout[0].box.info.training.strength.exercise[0].movement.type[1]}}</span> -
+             {{workout[0].box.info.training.strength.exercise[0].movement.reps[1]}} reps</p>
 
-      <p>{{workout[0].box.info.training.strength.exercise[0].movement.type[0]}} -
-         {{workout[0].box.info.training.strength.exercise[0].movement.reps[0]}} reps</p>
-
-      <p>{{workout[0].box.info.training.strength.exercise[0].movement.type[1]}} -
-         {{workout[0].box.info.training.strength.exercise[0].movement.reps[1]}} reps</p>
+             
 
 
 
