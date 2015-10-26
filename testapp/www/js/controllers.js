@@ -2,7 +2,6 @@ angular.module('starter.controllers', [])
 
 .controller('WodCtrl', function($scope, Workout) {
 
-
     $scope.workout = Workout;
 
     $scope.format = function(string){
@@ -11,14 +10,11 @@ angular.module('starter.controllers', [])
       // return newString;
     };
 
+    $scope.personalBest = function(arg){
+      console.log(arg);
+    };
 })
 
-// .controller('ChatsCtrl', function($scope, Chats) {
-//   $scope.chats = Chats.all();
-//   $scope.remove = function(chat) {
-//     Chats.remove(chat);
-//   };
-// })
 
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
   $scope.chat = Chats.get($stateParams.chatId);
