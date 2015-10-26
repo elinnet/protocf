@@ -1,8 +1,11 @@
 <ion-view view-title="WOD">
   <ion-content class="padding" ng-init="training()">
     <div class = "card">
+
       <h1>{{workout[0].date | date: 'EEE dd MMM'}}</h1>
       <h3>{{workout[0].box.info.name}}</h3>
+
+          <p>{{workout[0]}}</p>
 
       <!-- if "strength" object not empty, then print out values -->
       <h2 class="item item-divider">{{workout[0].box.info.training.strength.type}} - {{workout[0].box.info.training.strength.time}} mins</h2>
