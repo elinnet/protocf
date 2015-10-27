@@ -10,8 +10,8 @@ angular.module('starter.controllers', [])
       // return newString;
     };
 
-    $scope.personalBest = function(arg){
-      console.log(arg);
+    $scope.personalBest = function($event){
+      console.log($event.target.innerHTML);
     };
 })
 
