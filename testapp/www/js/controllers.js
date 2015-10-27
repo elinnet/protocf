@@ -15,6 +15,10 @@ angular.module('starter.controllers', [])
     };
 })
 
+.controller('MetconCtrl', function($scope){
+  
+})
+
 
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
   $scope.chat = Chats.get($stateParams.chatId);
