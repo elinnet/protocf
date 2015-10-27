@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'firebase', 'starter.controllers', 'starter.services','starter.filters','starter.factory'])
+angular.module('starter', ['ionic', 'firebase', 'ui.router', 'starter.controllers', 'starter.services','starter.filters','starter.factory'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -82,12 +82,8 @@ angular.module('starter', ['ionic', 'firebase', 'starter.controllers', 'starter.
   //state for metcon button
   .state('metcon',{
     url: '/metcon', // will later make this a a child of wod
-    views: {
-      'metcon':{
-        templateUrl: 'templates/metcon.html',
-        controller: 'MetconCtrl'
-      }
-    }
+    templateUrl: 'templates/metcon.html',
+    controller: 'MetconCtrl'
   });
 
   // if none of the above states are matched, use this as the fallback

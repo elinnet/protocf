@@ -16,7 +16,8 @@ angular.module('starter.controllers', [])
 })
 
 .controller('MetconCtrl', function($scope){
-  
+  console.log("inside metcon controller");
+
 })
 
 
