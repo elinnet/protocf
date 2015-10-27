@@ -21,8 +21,31 @@ angular.module('starter.controllers', [])
   $scope.metcon = {};
 
   $scope.submit = function(user){
+    // var timestamp = new Date().getTime();
     $scope.metcon = angular.copy(user);
+    // $scope.metcon.elin = date;
     console.log($scope.metcon);
+
+    var dailyMetconResult = $scope.metcon;
+    console.log(dailyMetconResult);
+
+    var ref = new Firebase("https://incandescent-inferno-5080.firebaseio.com");
+
+    var usersMetcon = ref.child("metcon");
+
+    var newMetcon = usersMetcon.push();
+
+    newMetcon.set(dailyMetconResult);
+
+
+    //to read the data
+
+    var reference = new Firebase("https://incandescent-inferno-5080.firebaseio.com/metcon");
+    reference.on("value", function(snapshot) {
+        console.log(snapshot.val());
+      }, function (errorObject) {
+        console.log("The read failed: " + errorObject.code);
+      });
 
   };
 

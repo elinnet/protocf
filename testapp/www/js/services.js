@@ -1,4 +1,4 @@
-var app = angular.module('starter.services', [])
+var app = angular.module('starter.services', []);
 
 app.factory('Chats', function() {
   // Might use a resource here that returns a JSON array
