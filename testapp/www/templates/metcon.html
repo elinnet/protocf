@@ -11,7 +11,7 @@
             <div class="input-label">
               Measure
             </div>
-            <select>
+            <select name="measurement" ng-model="user.measure">
               <option>For Time</option>
               <option>For Reps</option>
               <option>For Rounds</option>
@@ -26,14 +26,16 @@
             <span class="input-label">
               Result
             </span>
-            <input type="number">
+            <input type="number" name="result" ng-model="user.result">
           </label>
 
           <div class="item item-input-inset">
-            <label class="item-input-wrapper">
-              <input type="text" placeholder="Notes">
+            <label class="item-input-wrapper" name="notes">
+              <input type="text" placeholder="Notes" ng-model="user.notes">
             </label>
           </div>
+
+          <button type="submit" ng-click="submit(user)" class="button button-block button-positive">Save Result!</button>
 
         </ion-list>
       </form>

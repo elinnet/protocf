@@ -18,6 +18,19 @@ angular.module('starter.controllers', [])
 .controller('MetconCtrl', function($scope){
   $scope.date = new Date();
 
+  $scope.metcon = {};
+
+  $scope.submit = function(user){
+    $scope.metcon = angular.copy(user);
+    console.log($scope.metcon);
+
+  };
+
+  $scope.data = function(val){
+    console.log(val);
+  };
+
+
 })
 
 
