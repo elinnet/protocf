@@ -1,6 +1,7 @@
 <ion-view view-title="WOD">
   <ion-content class="padding" ng-init="training()">
     <div class = "card">
+    
       <h1>{{workout[0].date | date: 'EEE dd MMM'}}</h1>
       <h3>{{workout[0].box.info.name}}</h3>
 
@@ -36,7 +37,7 @@
           <div class="specificmovt">
             <p ng-show><span class="pbmovement">{{workout[0].box.info.training.strength.exercise[1].movement.type[0]}}</span> -
              {{workout[0].box.info.training.strength.exercise[1].movement.reps[0]}} rep</p>
-             <p>{{workout[0].box.info.training.strength.exercise[1].movement.freetext | myFilter }}</p>
+             <p>{{workout[0].box.info.training.strength.exercise[1].movement.freetext}}</p>
           </div>
       </div>
 

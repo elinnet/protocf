@@ -1,0 +1,132 @@
+{
+  "box" : {
+    "box" : {
+      "cfhackney" : {
+        "daily" : [ {
+          "date" : "2015-10-23",
+          "metcon" : {
+            "freetext" : "3 min AMRAP of: \n2 Power Clean and Jerk \n4 Over the Bar Burpees \n Rest 2 mins between rounds",
+            "rounds" : "4",
+            "time" : "20",
+            "type" : "Metcon"
+          },
+          "strength" : {
+            "exercise" : [ {
+              "movement" : {
+                "description" : "12 mins E2MOM",
+                "freetext" : "",
+                "reps" : [ 1, 2 ],
+                "sets" : 6,
+                "type" : [ "Power Clean", "Split Jerks" ]
+              }
+            }, {
+              "movement" : {
+                "description" : "12 mins E2MOM",
+                "freetext" : "30 sec Hollow Dish Hold (weighted). Rest 60 secs. Freestanding handstand. Rest 60 secs.",
+                "sets" : 4,
+                "type" : [ "", "" ]
+              }
+            } ],
+            "time" : "24",
+            "type" : "Strength"
+          }
+        }, {
+          "date" : "2015-10-24"
+        } ],
+        "name" : "CF Hackney"
+      }
+    }
+  },
+  "endedAt" : 1445966472348,
+  "metcon" : {
+    "-K1dylC8a4rfOqEZvZU4" : {
+      "dailyMetconResult" : {
+        "measure" : "For Distance",
+        "notes" : "asdfasdf",
+        "result" : 123
+      }
+    },
+    "-K1e03HrLVSUoBh44TUT" : {
+      "dailyMetconResult" : {
+        "measure" : "For Rounds",
+        "notes" : "new result",
+        "result" : 234234
+      }
+    },
+    "-K1e06bqK96kcNsw_jAM" : {
+      "dailyMetconResult" : {
+        "measure" : "For Time",
+        "notes" : "another new result",
+        "result" : 123123
+      }
+    },
+    "-K1eEXhS3j9RGYQPNath" : {
+      "dailyMetconResult" : {
+        "measure" : "For Time",
+        "notes" : "Felt sluggish",
+        "result" : 10.5
+      }
+    },
+    "-K1eGGdG_WcU3yu5Jnta" : {
+      "dailyMetconResult" : {
+        "measure" : "For Reps",
+        "notes" : "Happy",
+        "result" : 2345
+      }
+    },
+    "-K1eGYHy-oKTPy2JViqU" : {
+      "dailyMetconResult" : {
+        "measure" : "For Load",
+        "notes" : "asdfasdf",
+        "result" : 33
+      }
+    },
+    "-K1eH9PL_4QZT_4529Js" : {
+      "dailyMetconResult" : {
+        "measure" : "For Time",
+        "notes" : "tired",
+        "result" : 234234
+      }
+    },
+    "-K1eITzkiZNsTp1d_teF" : {
+      "dailyMetconResult" : {
+        "measure" : "For Reps",
+        "notes" : "Fast",
+        "result" : 344
+      }
+    },
+    "-K1eJPLicXMys0iiY9We" : {
+      "dailyMetconResult" : {
+        "elin" : "test",
+        "measure" : "For Time",
+        "notes" : "blah",
+        "result" : 123
+      }
+    },
+    "-K1eJqxgnbrFKgO5YZib" : {
+      "dailyMetconResult" : {
+        "measure" : "For Distance",
+        "notes" : "great!",
+        "result" : 2345
+      }
+    },
+    "-K1eK2Av8j1a7b9vm_Ia" : {
+      "dailyMetconResult" : {
+        "measure" : "For Reps",
+        "notes" : "awesome",
+        "result" : 2222
+      }
+    },
+    "-K1eLHl5_RzMLJBIOhRL" : 1445966982189,
+    "-K1eMzle74SkhYAfTC37" : {
+      "measure" : "For Reps",
+      "notes" : "yyy",
+      "result" : 333
+    },
+    "-K1hRYLqN1ep7FWwGVPc" : {
+      "measure" : "For Distance",
+      "notes" : "sdfsdf",
+      "result" : 234
+    }
+  }
+}
