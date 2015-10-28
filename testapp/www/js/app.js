@@ -50,6 +50,16 @@ angular.module('starter', ['ionic', 'firebase', 'ui.router', 'starter.controller
     }
   })
 
+  .state('tab.wodv2', {
+    url: '/wodv2',
+    views: {
+      'tab-wodv2': {
+        templateUrl: 'templates/tab-wodv2.html',
+        controller: 'WodCtrlv2'
+      }
+    }
+  })
+
   .state('tab.chats', {
       url: '/chats',
       views: {

@@ -15,6 +15,11 @@ angular.module('starter.controllers', [])
     };
 })
 
+.controller('WodCtrlv2', function($scope, Workout) {
+
+})
+
+
 .controller('MetconCtrl', function($scope){
   $scope.date = new Date();
 
@@ -23,7 +28,7 @@ angular.module('starter.controllers', [])
   $scope.submit = function(user){
     // var timestamp = new Date().getTime();
     $scope.metcon = angular.copy(user);
-    // $scope.metcon.elin = date;
+    $scope.metcon.dateinfo = new Date();
     console.log($scope.metcon);
 
     var dailyMetconResult = $scope.metcon;
