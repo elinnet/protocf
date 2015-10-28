@@ -1,84 +1,82 @@
 {
   "box": {
-      "cfhackney": {
-          "name": "CF Hackney",
-          "daily": [
-              {
-                  "date": "2015-10-06",
-                  "strength": {
-                      "time": "25",
-                      "type": "Strength",
-                      "exercise": [
-                          {
-                              "movement": {
-                                  "description": "8 min E2MOM",
-                                  "freetext": "1-2 snatch pull from floor. 60-80% of 1RM Snatch Grip Deadlift",
-                                  "sets": 4,
-                                  "reps": [
-                                      0,
-                                      0
-                                  ],
-                                  "type": [
-                                      0,
-                                      0
-                                  ]
-                              }
-                          },
-                          {
-                              "movement": {
-                                  "description": "8 mins E2MOM",
-                                  "freetext": "2-3 snatch pull from floor. 50% of 1RM Snatch Grip Deadlift",
-                                  "sets": 4,
-                                  "reps": [
-                                      0,
-                                      0
-                                  ],
-                                  "type": [
-                                      0,
-                                      0
-                                  ]
-                              }
-                          },
-                          {
-                              "movement": {
-                                  "description": "8 mins E2MOM",
-                                  "freetext": "",
-                                  "reps": [
-                                      1,
-                                      0
-                                  ],
-                                  "sets": 4,
-                                  "type": [
-                                      "Snatch",
-                                      0
-                                  ]
-                              }
-                          },
-                          {
-                              "movement": {
-                                  "description": "5RM Front Sq - Mov't, 3RM Front Squat - Function, 2RM Performance/Sport",
-                                  "freetext": "",
-                                  "sets": 0,
-                                  "type": [
-                                      "Front Squat",
-                                      0
-                                  ]
-                              }
-                          }
-
-                      ]
-                  },
-                  "metcon": {
-                      "type": "Metcon",
-                      "freetext": "3 RFT. 20 Walking lunges DB/KB. 5,5,5 strict pullups",
-                      "rounds": "3",
-                      "time": "20"
-                  }
-              },
-              {
-                  "date": "2015-10-24"
+    "cfhackney": {
+      "week441": {
+        "date": "2015-10-06",
+        "strength": {
+          "time": "25",
+          "type": "Strength",
+          "exercise": [
+            {
+              "movement": {
+                "description": "8 min E2MOM",
+                "freetext": "1-2 snatch pull from floor. 60-80% of 1RM Snatch Grip Deadlift",
+                "sets": 4,
+                "reps": [
+                  0,
+                  0
+                ],
+                "type": [
+                  0,
+                  0
+                ]
               }
+            },
+            {
+              "movement": {
+                "description": "8 mins E2MOM",
+                "freetext": "2-3 snatch pull from floor. 50% of 1RM Snatch Grip Deadlift",
+                "sets": 4,
+                "reps": [
+                  0,
+                  0
+                ],
+                "type": [
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "movement": {
+                "description": "8 mins E2MOM",
+                "freetext": "",
+                "sets": 4,
+                "reps": [
+                  1,
+                  0
+                ],
+                "type": [
+                  "Snatch",
+                  0
+                ]
+              }
+            },
+            {
+              "movement": {
+                "description": "5RM Front Sq - Mov't, 3RM Front Squat - Function, 2RM Performance/Sport",
+                "freetext": "",
+                "sets": 0,
+                "reps": [
+                  0,
+                  0
+                ],
+                "type": [
+                  "Front Squat",
+                  0
+                ]
+              }
+            }
           ]
-      }
+        },
+        "metcon": {
+          "type": "Metcon",
+          "freetext": "3 RFT. 20 Walking lunges DB/KB. 5,5,5 strict pullups",
+          "rounds": "3",
+          "time": "20"
+        }
+      },
+      "name": "CF Hackney"
+    }
   }
 }
