@@ -1,0 +1,80 @@
+
+<ion-view view-title="WOD">
+  <ion-content class="padding">
+    <div class = "card">
+
+      <h1>{{workout[0].cfhackney.week413.date|date: 'EEE dd MMM'}}</h1>
+
+      <h3>{{workout[0].cfhackney.name}}</h3>
+
+      <!-- if "strength" object empty, don't print out these values -->
+      <h2 class="item item-divider">{{workout[0].cfhackney.week413.strength.type}} - {{workout[0].cfhackney.week413.strength.time}} mins</h2>
+
+        <!-- description -->
+      <div class="textpadding">
+        <p class="mvtdescription">{{workout[0].cfhackney.week413.strength.exercise[0].movement.description}}</p>
+        </p>
+
+
+        <!-- rounds  -->
+        <p>{{workout[0].cfhackney.week413.strength.exercise[0].movement.sets}} rounds</p>
+        <p>{{workout[0].cfhackney.week413.strength.exercise[0].movement.freetext}}
+
+        <!-- movement & reps -->
+          <div class="specificmovt">
+            <p><span class="button button-positive button-small" ng-click=personalBest($event)>{{workout[0].cfhackney.week413.strength.exercise[0].movement.type[0]}}</span> -
+             {{workout[0].cfhackney.week413.strength.exercise[0].movement.reps[0]}} reps</p>
+
+             <p><span class="button button-positive button-small button-text" ng-click=personalBest($event)> {{workout[0].cfhackney.week413.strength.exercise[0].movement.type[1]}}</span> -
+               {{workout[0].cfhackney.week413.strength.exercise[0].movement.reps[1]}} reps</p>
+          </div>
+
+        <!-- description -->
+        <p class="mvtdescription">{{workout[0].cfhackney.week413.strength.exercise[1].movement.description}}</p>
+
+        <!-- rounds  -->
+        <p>{{workout[0].cfhackney.week413.strength.exercise[1].movement.sets}} rounds</p>
+        <p>{{workout[0].cfhackney.week413.strength.exercise[1].movement.freetext}}</p>
+
+        <!-- movement & reps -->
+          <div class="specificmovt">
+            <p><span class="button button-positive button-small" ng-click=personalBest($event)>{{workout[0].cfhackney.week413.strength.exercise[1].movement.type[0]}}</span> -
+             {{workout[0].cfhackney.week413.strength.exercise[1].movement.reps[0]}} rep</p>
+            <p><span class="button button-positive button-small" ng-click=personalBest($event)>{{workout[0].cfhackney.week413.strength.exercise[1].movement.type[1]}}</span> -
+              {{workout[0].cfhackney.week413.strength.exercise[1].movement.reps[1]}} rep</p>
+          </div>
+
+          <!-- description -->
+          <p class="mvtdescription">{{workout[0].cfhackney.week413.strength.exercise[2].movement.description}}</p>
+
+          <!-- rounds  -->
+          <p>{{workout[0].cfhackney.week413.strength.exercise[2].movement.sets}} rounds</p>
+          <p>{{workout[0].cfhackney.week413.strength.exercise[2].movement.freetext}}</p>
+          <!-- movement & reps -->
+          <div class="specificmovt">
+            <p><span class="button button-positive button-small" ng-click=personalBest($event)>{{workout[0].cfhackney.week413.strength.exercise[2].movement.type[0]}}</span> -
+             {{workout[0].cfhackney.week413.strength.exercise[2].movement.reps[0]}} rep</p>
+            <p><span class="button button-positive button-small" ng-click=personalBest($event)>{{workout[0].cfhackney.week413.strength.exercise[2].movement.type[1]}}</span> -
+              {{workout[0].cfhackney.week413.strength.exercise[2].movement.reps[0]}} rep</p>
+          </div>
+      </div>
+
+<!-- metcon section -->
+    <div class="item item-divider">
+      {{workout[0].cfhackney.week413.metcon.type}} - {{workout[0].cfhackney.week413.metcon.time}} mins
+    </div>
+
+    <div class="textpadding">
+      <p class="rounds">{{workout[0].cfhackney.week413.metcon.rounds}} rounds</p>
+      <!-- description -->
+      <p class="specificmovt">{{workout[0].cfhackney.week413.metcon.freetext}}</p>
+    </div>
+
+    <button class="button button-positive button-small right" ui-sref="metcon">
+        Metcon Finished?
+    </button>
+
+
+    </div>
+  </ion-content>
+</ion-view>
