@@ -7,6 +7,8 @@
 
       <h3>{{workout[0].cfhackney.name}}</h3>
 
+      <!-- STRENGTH -->
+
       <!-- if "strength" object empty, don't print out these values -->
       <h2 class="item item-divider">{{workout[0].cfhackney.week413.strength.type}} - {{workout[0].cfhackney.week413.strength.time}} mins</h2>
 
@@ -59,7 +61,7 @@
           </div>
       </div>
 
-<!-- metcon section -->
+    <!-- METCON-->
     <div class="item item-divider">
       {{workout[0].cfhackney.week413.metcon.type}} - {{workout[0].cfhackney.week413.metcon.time}} mins
     </div>
@@ -69,6 +71,9 @@
       <!-- description -->
       <p class="specificmovt">{{workout[0].cfhackney.week413.metcon.freetext}}</p>
     </div>
+
+    <!-- GYMNASTICS -->
+
 
     <button class="button button-positive button-small right" ui-sref="metcon">
         Metcon Finished?
