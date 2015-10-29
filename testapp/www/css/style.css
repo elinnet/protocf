@@ -33,3 +33,7 @@ h3 {
 .rounds{
   font-weight: bold;
 }
+
+.list{
+  white-space: pre;
+}

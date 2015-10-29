@@ -10,6 +10,7 @@
       <!-- STRENGTH -->
 
       <!-- if "strength" object empty, don't print out these values -->
+
       <h2 class="item item-divider">{{workout[0].cfhackney.week417.strength.type}} - {{workout[0].cfhackney.week417.strength.time}} mins</h2>
 
         <!-- description -->
@@ -18,7 +19,7 @@
 
         <!-- rounds  -->
         <p>{{workout[0].cfhackney.week417.strength.exercise[0].movement.sets}} rounds</p>
-        <p>{{workout[0].cfhackney.week417.strength.exercise[0].movement.freetext}}
+        <p class="list">{{workout[0].cfhackney.week417.strength.exercise[0].movement.freetext}}</p>
 
         <!-- movement & reps -->
           <div class="specificmovt">
@@ -34,7 +35,7 @@
 
         <!-- rounds  -->
         <p>{{workout[0].cfhackney.week417.strength.exercise[1].movement.sets}} rounds</p>
-        <p>{{workout[0].cfhackney.week417.strength.exercise[1].movement.freetext}}</p>
+        <p class="list">{{workout[0].cfhackney.week417.strength.exercise[1].movement.freetext}}</p>
 
         <!-- movement & reps -->
           <div class="specificmovt">
@@ -49,7 +50,7 @@
 
           <!-- rounds  -->
           <p>{{workout[0].cfhackney.week417.strength.exercise[2].movement.sets}} rounds</p>
-          <p>{{workout[0].cfhackney.week417.strength.exercise[2].movement.freetext}}</p>
+          <p class="list">{{workout[0].cfhackney.week417.strength.exercise[2].movement.freetext}}</p>
           <!-- movement & reps -->
           <div class="specificmovt">
             <p><span class="button button-positive button-small" ng-click=personalBest($event)>{{workout[0].cfhackney.week417.strength.exercise[2].movement.type[0]}}</span> -
@@ -67,16 +68,16 @@
 
     <div class="textpadding">
       <p>{{workout[0].cfhackney.week417.gymnastics.exercise[0].movement.description}}</p>
-      <p>{{workout[0].cfhackney.week417.gymnastics.exercise[0].movement.freetext}}</p>
+      <p class="list">{{workout[0].cfhackney.week417.gymnastics.exercise[0].movement.freetext}}</p>
 
       <p>{{workout[0].cfhackney.week417.gymnastics.exercise[1].movement.description}}</p>
-      <p>{{workout[0].cfhackney.week417.gymnastics.exercise[1].movement.freetext}}</p>
+      <p class="list">{{workout[0].cfhackney.week417.gymnastics.exercise[1].movement.freetext}}</p>
 
       <p>{{workout[0].cfhackney.week417.gymnastics.exercise[2].movement.description}}</p>
-      <p>{{workout[0].cfhackney.week417.gymnastics.exercise[2].movement.freetext}}</p>
+      <p class="list">{{workout[0].cfhackney.week417.gymnastics.exercise[2].movement.freetext}}</p>
 
       <p>{{workout[0].cfhackney.week417.gymnastics.exercise[3].movement.description}}</p>
-      <p>{{workout[0].cfhackney.week417.gymnastics.exercise[3].movement.freetext}}</p>
+      <p class="list">{{workout[0].cfhackney.week417.gymnastics.exercise[3].movement.freetext}}</p>
     </div>
 
     <!-- METCON-->
@@ -87,7 +88,7 @@
     <div class="textpadding">
       <p class="rounds">{{workout[0].cfhackney.week417.metcon.rounds}} rounds</p>
       <!-- description -->
-      <p class="specificmovt">{{workout[0].cfhackney.week417.metcon.freetext}}</p>
+      <p class="specificmovt list">{{workout[0].cfhackney.week417.metcon.freetext | myFilter}}</pre>
     </div>
 
     <button class="button button-positive button-small right" ui-sref="metcon">
