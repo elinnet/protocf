@@ -7,14 +7,14 @@
 
       <h3>{{workout[0].cfhackney.name}}</h3>
 
+      <!-- STRENGTH -->
+
       <!-- if "strength" object empty, don't print out these values -->
       <h2 class="item item-divider">{{workout[0].cfhackney.week412.strength.type}} - {{workout[0].cfhackney.week412.strength.time}} mins</h2>
 
         <!-- description -->
       <div class="textpadding">
         <p class="mvtdescription">{{workout[0].cfhackney.week412.strength.exercise[0].movement.description}}</p>
-        </p>
-
 
         <!-- rounds  -->
         <p>{{workout[0].cfhackney.week412.strength.exercise[0].movement.sets}} rounds</p>
@@ -59,7 +59,27 @@
           </div>
       </div>
 
-<!-- metcon section -->
+    <!-- GYMNASTICS -->
+
+    <div class="item item-divider">
+      {{workout[0].cfhackney.week412.gymnastics.type}} - {{workout[0].cfhackney.week412.gymnastics.time}} mins
+    </div>
+
+    <div class="textpadding">
+      <p>{{workout[0].cfhackney.week412.gymnastics.exercise[0].movement.description}}</p>
+      <p>{{workout[0].cfhackney.week412.gymnastics.exercise[0].movement.freetext}}</p>
+
+      <p>{{workout[0].cfhackney.week412.gymnastics.exercise[1].movement.description}}</p>
+      <p>{{workout[0].cfhackney.week412.gymnastics.exercise[1].movement.freetext}}</p>
+
+      <p>{{workout[0].cfhackney.week412.gymnastics.exercise[2].movement.description}}</p>
+      <p>{{workout[0].cfhackney.week412.gymnastics.exercise[2].movement.freetext}}</p>
+
+      <p>{{workout[0].cfhackney.week412.gymnastics.exercise[3].movement.description}}</p>
+      <p>{{workout[0].cfhackney.week412.gymnastics.exercise[3].movement.freetext}}</p>
+    </div>
+
+    <!-- METCON-->
     <div class="item item-divider">
       {{workout[0].cfhackney.week412.metcon.type}} - {{workout[0].cfhackney.week412.metcon.time}} mins
     </div>
