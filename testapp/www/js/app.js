@@ -100,6 +100,17 @@ angular.module('starter', ['ionic', 'firebase', 'ui.router', 'starter.controller
     }
   })
 
+
+  .state('tab.wod417', {
+    url: '/wod417',
+    views: {
+      'tab-wod': {
+        templateUrl: 'templates/tab-wod417.html',
+        controller: 'WodCtrl417'
+      }
+    }
+  })
+
   .state('tab.chats', {
       url: '/chats',
       views: {
