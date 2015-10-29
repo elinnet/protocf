@@ -15,7 +15,10 @@ angular.module('starter.controllers', [])
     };
 })
 
-.controller('WodCtrlv2', function($scope, Workout) {
+.controller('WodCtrlv2', function($scope, Workoutv2) {
+    $scope.workout = Workoutv2;
+    console.log($scope.workout);
+
 
 })
 
