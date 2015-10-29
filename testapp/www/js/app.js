@@ -39,26 +39,26 @@ angular.module('starter', ['ionic', 'firebase', 'ui.router', 'starter.controller
   })
 
   // Each tab has its own nav history stack:
-
-  .state('tab.wod', {
-    url: '/wod',
+  .state('tab.wod411', {
+    url: '/wod411',
     views: {
       'tab-wod': {
-        templateUrl: 'templates/tab-wod.html',
-        controller: 'WodCtrl'
+        templateUrl: 'templates/tab-wod411.html',
+        controller: 'WodCtrl411'
       }
     }
   })
 
-  .state('tab.wodv2', {
-    url: '/wodv2',
+  .state('tab.wod412', {
+    url: '/wod412',
     views: {
-      'tab-wodv2': {
-        templateUrl: 'templates/tab-wodv2.html',
-        controller: 'WodCtrlv2'
+      'tab-wod': {
+        templateUrl: 'templates/tab-wod412.html',
+        controller: 'WodCtrl412'
       }
     }
   })
+
 
   .state('tab.chats', {
       url: '/chats',
@@ -97,6 +97,6 @@ angular.module('starter', ['ionic', 'firebase', 'ui.router', 'starter.controller
   });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/wod');
+  $urlRouterProvider.otherwise('/tab/wod411');
 
 });

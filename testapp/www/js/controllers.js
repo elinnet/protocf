@@ -1,6 +1,15 @@
 angular.module('starter.controllers', [])
 
-.controller('WodCtrl', function($scope, Workout) {
+.controller('WodCtrl411', function($scope, Workout) {
+    $scope.workout = Workout;
+    console.log($scope.workout);
+
+    $scope.personalBest = function($event){
+      console.log($event.target.innerHTML);
+    };
+})
+
+.controller('WodCtrl412', function($scope, Workout) {
 
     $scope.workout = Workout;
 
@@ -14,18 +23,6 @@ angular.module('starter.controllers', [])
       console.log($event.target.innerHTML);
     };
 })
-
-.controller('WodCtrlv2', function($scope, Workout) {
-    $scope.workout = Workout;
-    console.log($scope.workout);
-
-    $scope.personalBest = function($event){
-      console.log($event.target.innerHTML);
-    };
-
-
-})
-
 
 .controller('MetconCtrl', function($scope){
   $scope.date = new Date();
