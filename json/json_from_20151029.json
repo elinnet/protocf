@@ -1,0 +1,327 @@
+{
+  "box": {
+    "cfhackney": {
+      "name": "CF Hackney",
+      "week411": {
+        "date": "2015-10-05",
+        "strength": {
+          "time": "25",
+          "type": "Strength",
+          "exercise": [
+            {
+              "movement": {
+                "description": "8 min E2MOM",
+                "freetext": "1-2 snatch pull from floor. 60-80% of 1RM Snatch Grip Deadlift",
+                "sets": 4,
+                "reps": [
+                  "",
+                  ""
+                ],
+                "type": [
+                  "",
+                  ""
+                ]
+              }
+            },
+            {
+              "movement": {
+                "description": "8 mins E2MOM",
+                "freetext": "2-3 snatch pull from floor. 50% of 1RM Snatch Grip Deadlift",
+                "sets": 4,
+                "reps": [
+                  "",
+                  ""
+                ],
+                "type": [
+                  "",
+                  ""
+                ]
+              }
+            },
+            {
+              "movement": {
+                "description": "8 mins E2MOM",
+                "freetext": "",
+                "sets": 4,
+                "reps": [
+                  1,
+                  ""
+                ],
+                "type": [
+                  "Snatch",
+                  ""
+                ]
+              }
+            },
+            {
+              "movement": {
+                "description": "5RM Front Sq - Mov't, 3RM Front Squat - Function, 2RM Performance/Sport",
+                "freetext": "",
+                "sets": "",
+                "reps": [
+                  "",
+                  ""
+                ],
+                "type": [
+                  "Front Squat",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        "metcon": {
+          "type": "Metcon",
+          "freetext": "3 RFT. 20 Walking lunges DB/KB. 5,5,5 strict pullups",
+          "rounds": "3",
+          "time": "20"
+        }
+      },
+      "week412": {
+        "date": "2015-10-06",
+        "strength": {
+          "time": "24",
+          "type": "Strength",
+          "exercise": [
+            {
+              "movement": {
+                "description": "12 min E2MOM",
+                "freetext": "",
+                "sets": 6,
+                "reps": [
+                  1,
+                  2
+                ],
+                "type": [
+                  "Power Clean",
+                  "Split Jerks"
+                ]
+              }
+            },
+            {
+              "movement": {
+                "description": "12 mins E2MOM",
+                "freetext": "30 sec Hollow Dish Hold (weighted). Rest 60 secs. Freestanding handstand. Rest 60 secs.",
+                "sets": 4,
+                "reps": [
+                  "",
+                  ""
+                ],
+                "type": [
+                  "",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        "metcon": {
+          "type": "Metcon",
+          "time": "20",
+          "rounds": "4",
+          "freetext": "3 min AMRAP of: \n2 Power Clean and Jerk \n4 Over the Bar Burpees \n Rest 2 mins between rounds"
+        }
+      },
+      "week413": {
+        "date": "2015-10-07",
+        "strength": {
+          "time": "24",
+          "type": "Strength",
+          "exercise": [
+            {
+              "movement": {
+                "description": "8 min E2MOM",
+                "freetext": "1-2 Clean High Pulls from floor @ 60-80% of 1RM Deadlift",
+                "sets": 4,
+                "reps": [
+                  "",
+                  ""
+                ],
+                "type": [
+                  "",
+                  ""
+                ]
+              }
+            },
+            {
+              "movement": {
+                "description": "8 min E2MOM",
+                "freetext": "2-3 Clean High Pulls from floor @ 60-80% of 1RM Deadlift",
+                "sets": "",
+                "reps": [
+                  "",
+                  ""
+                ],
+                "type": [
+                  "",
+                  ""
+                ]
+              }
+            },
+            {
+              "movement": {
+                "description": "8 min E2MOM",
+                "freetext": "",
+                "sets": 4,
+                "reps": [
+                  "1",
+                  ""
+                ],
+                "type": [
+                  "Full Clean",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        "metcon": {
+          "type": "Metcon",
+          "time": "15",
+          "rounds": "3",
+          "freetext": "In groups of 3 and in turns, complete 5 rounds of:. 60 second AMRAP. 6 Touch & Go Deadlifts. Row for distance for the remaining time."
+        }
+      },
+      "week414": {
+        "date": "2015-10-08",
+        "gymnastics": {
+          "time": "60",
+          "type": "Gymnastics",
+          "exercise": [
+            {
+              "movement": {
+                "description": "",
+                "sets": "",
+                "freetext": "4-10 Tuck Ring Chin-Ups  Scale: Eccentric Tuck hold & lower. 4-5 P-bars Shoulder Stand Tuck Roll to L-Sit  Scale: 4-6 Shoulder Stands, then swint to Tuck/L-Sit. 4-10 Sheena/P-bar Dive Bomber Push-ups  Scale: Battle Ram Push-ups",
+                "reps": [
+                  "",
+                  ""
+                ],
+                "type": [
+                  "",
+                  ""
+                ]
+              }
+            },
+            {
+              "movement": {
+                "description": "",
+                "sets": "",
+                "freetext": "6-8 Inverted Pike to L-Sit Chin  Scale: Inverted Pike to Tuck Chin, Ring Row Sit-Backs. 5-10 Top position Pike-Up  Scale: Top position Tuck-Up.  5-10 Russian Push-Up & Saw  Scale: Eccentrics. 10-12 Mountain climbers.",
+                "reps": [
+                  "",
+                  ""
+                ],
+                "type": [
+                  "",
+                  ""
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "week415": {
+        "date": "2015-10-09",
+        "strength": {
+          "time": "25",
+          "type": "Strength",
+          "exercise": [
+            {
+              "movement": {
+                "description": "8 min E2MOM",
+                "freetext": "",
+                "sets": 4,
+                "reps": [
+                  "1",
+                  "1"
+                ],
+                "type": [
+                  "Full Clean",
+                  "Jerk"
+                ],
+                "freetext2": "Jerk can be push or split"
+              }
+            },
+            {
+              "movement": {
+                "description": "Clean and Jerks - 12 mins",
+                "freetext": "Three rounds of the following:. 00:00 Every 15 secs, Athlete 1 completes 1 Clean and Jerk for one minute. 02:00 Athlete 2 completes 1 Clean and Jerk for one minute.",
+                "sets": "",
+                "reps": [
+                  "",
+                  ""
+                ],
+                "type": [
+                  "",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        "metcon": {
+          "type": "Metcon",
+          "time": "20",
+          "rounds": "5",
+          "freetext": "2 min AMRAP of:. 5 Thrusters 40/30kg.  10 AKBS [P:32/24kg, S: 24/20kg, F:20/16kg].  Rest 2 mins between rounds."
+        }
+      },
+      "week416": {
+        "date": "2015-10-10",
+        "strength": {
+          "time": "30",
+          "type": "Strength",
+          "exercise": [
+            {
+              "movement": {
+                "description": "Back Squat - 15 mins",
+                "freetext": "Establish. 5M Back Squat for Mov't. 3RM Back Squat for Funct. 2RM for Perf/Sp.",
+                "sets": "",
+                "reps": [
+                  "",
+                  ""
+                ],
+                "type": [
+                  "Back Squat",
+                  ""
+                ],
+                "freetext2": ""
+              }
+            },
+            {
+              "movement": {
+                "description": "Back Squat - 12 mins",
+                "freetext": "If 1RM Back Squat greater than bodyweight.  Odd min: 5 Barbell Squat Jumps @ 30% 1RM Back Squat.  If you cannot squat your bodyweight.  Odd min: 5 Speed Back Squats @ 50-60% 1RM Back Squat",
+                "sets": "",
+                "reps": [
+                  "",
+                  ""
+                ],
+                "type": [
+                  "",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        "metcon": {
+          "type": "Metcon",
+          "time": "25",
+          "rounds": "3",
+          "freetext": "20 walking lunges DB/KB. 5.5.5 strict pullups"
+        }
+      },
+      "week417": {
+        "date": "2015-10-11",
+        "metcon": {
+          "type": "Metcon",
+          "time": "25",
+          "rounds": "",
+          "freetext": "YGIG.  Part A.  4 rounds of:. 3 min AMRAP. 400m run. Max RKBS in remaining time.  3 min rest between rounds. Part B. 4 rounds of: 3 min AMRAP. 400m row. Max Wall Balls in remaining time. 3 min rest between rounds"
+        }
+      }
+    }
+  }
+}
