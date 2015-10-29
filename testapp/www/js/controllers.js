@@ -69,9 +69,20 @@ angular.module('starter.controllers', [])
     };
 })
 
+.controller('WodCtrl416', function($scope, Workout) {
 
+    $scope.workout = Workout;
 
+    $scope.format = function(string){
+      console.log(string);
+      // var newString = string.replace(/\./g,"\n");
+      // return newString;
+    };
 
+    $scope.personalBest = function($event){
+      console.log($event.target.innerHTML);
+    };
+})
 
 .controller('MetconCtrl', function($scope){
   $scope.date = new Date();
