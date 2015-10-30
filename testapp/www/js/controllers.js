@@ -1,3 +1,6 @@
+var ref = new Firebase("https://incandescent-inferno-5080.firebaseio.com");
+var metconRef = new Firebase('https://incandescent-inferno-5080.firebaseio.com/metcon');
+
 angular.module('starter.controllers', [])
 
 .controller('WodCtrl411', function($scope, Workout) {
@@ -101,44 +104,44 @@ angular.module('starter.controllers', [])
 })
 
 .controller('MetconCtrl', function($scope){
-  $scope.date = new Date();
+ $scope.metcon = {};
 
-  $scope.metcon = {};
+ $scope.submit = function(user){
+   $scope.metcon = angular.copy(user);
+   $scope.metcon.createdAt = Firebase.ServerValue.TIMESTAMP;
 
-  $scope.submit = function(user){
-    // var timestamp = new Date().getTime();
-    $scope.metcon = angular.copy(user);
-    $scope.metcon.dateinfo = new Date();
-    console.log($scope.metcon);
-
-    var dailyMetconResult = $scope.metcon;
-    console.log(dailyMetconResult);
-
-    var ref = new Firebase("https://incandescent-inferno-5080.firebaseio.com");
-
-    var usersMetcon = ref.child("metcon");
-
-    var newMetcon = usersMetcon.push();
-
-    newMetcon.set(dailyMetconResult);
+   var dailyMetconResult = $scope.metcon;
+   var usersMetcon = ref.child("metcon");
+   var newMetcon = usersMetcon.push();
+   newMetcon.set(dailyMetconResult);
 
 
-    //to read the data
+   //to read the data
 
-    var reference = new Firebase("https://incandescent-inferno-5080.firebaseio.com/metcon");
-    reference.on("value", function(snapshot) {
-        console.log(snapshot.val());
-      }, function (errorObject) {
-        console.log("The read failed: " + errorObject.code);
-      });
+   ref.on("value", function(snapshot) {
+       console.log(snapshot.val());
+     }, function (errorObject) {
+       console.log("The read failed: " + errorObject.code);
+   });
+ };
 
-  };
+ $scope.list = function(){
+   metconRef.orderByChild("createdAt").on("value", function(snapshot) {
+     snapshot.forEach(function(data) {
+       console.log("The exercise was created on " + new Date(data.val().createdAt));
+     });
+   });
+ };
 
-  $scope.data = function(val){
-    console.log(val);
-  };
-
-
+ $scope.byDate = function(date){
+   date = new Date (date);
+   date = date.valueOf();
+   metconRef.orderByChild('createdAt')
+     .startAt(date)
+     .on('child_added', function(snapshot) {
+       console.log(snapshot.key());
+     });
+   };
 })
 
 
